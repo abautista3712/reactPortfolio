@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <Navbar expand="sm" bg="dark" variant="dark">
       <Navbar.Brand href="#home">
-        <h3>Abelard Bautista</h3>
+        <h2>Abelard Bautista</h2>
       </Navbar.Brand>
       <Navbar.Text className="mr-auto">{`abelardbautista@gmail.com ● (619) 549 7683`}</Navbar.Text>
       <Nav>
