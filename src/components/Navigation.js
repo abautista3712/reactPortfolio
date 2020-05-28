@@ -5,9 +5,9 @@ import Nav from "react-bootstrap/Nav";
 
 const Navigation = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar expand="sm" bg="dark" variant="dark">
       <Navbar.Brand href="#home">
-        <h2>Abelard Bautista</h2>
+        <h3>Abelard Bautista</h3>
       </Navbar.Brand>
       <Navbar.Text className="mr-auto">{`abelardbautista@gmail.com ● (619) 549 7683`}</Navbar.Text>
       <Nav>
