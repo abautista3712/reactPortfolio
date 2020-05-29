@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import About from "../pages/About";
@@ -34,6 +34,9 @@ const Navigation = () => {
         </Nav>
       </Navbar>
       <Switch>
+        <Route path="/">
+          <About />
+        </Route>
         <Route path="/About">
           <About />
         </Route>
