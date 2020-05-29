@@ -18,7 +18,7 @@ const Navigation = () => {
   return (
     <div>
       <Navbar expand="sm" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/About">
           <h2>Abelard Bautista</h2>
         </Navbar.Brand>
         <Navbar.Text>abelardbautista@gmail.com</Navbar.Text>
