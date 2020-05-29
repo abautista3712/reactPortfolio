@@ -15,6 +15,11 @@ const Navigation = () => {
     window.open("https://www.linkedin.com/in/abelard-bautista", "_blank");
   };
 
+  const handleClickResume = () => {
+    window.open(`./assets/documents/resume.pdf`, `_blank`, `fullscreen=yes`);
+    return false;
+  };
+
   return (
     <div>
       <Navbar expand="sm" bg="dark" variant="dark">
@@ -43,7 +48,7 @@ const Navigation = () => {
           <Nav.Link href="/Projects" className="my-auto">
             Projects
           </Nav.Link>
-          <Nav.Link href="/Resume" className="my-auto">
+          <Nav.Link href="" className="my-auto" onClick={handleClickResume}>
             Resume
           </Nav.Link>
           <Nav.Link>
