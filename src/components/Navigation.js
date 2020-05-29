@@ -22,22 +22,6 @@ const Navigation = () => {
           <h2>Abelard Bautista</h2>
         </Navbar.Brand>
         <Navbar.Text className="mr-auto">{`abelardbautista@gmail.com ● (619) 549 7683`}</Navbar.Text>
-        <img
-          src="./assets/images/gitHubIcon.png"
-          width="40"
-          height="40"
-          className="d-inline-block align-top icon"
-          alt="GitHub Icon"
-          onClick={handleClickGitHub}
-        />
-        <img
-          src="./assets/images/linkedInIcon.png"
-          width="50"
-          height="40"
-          className="d-inline-block align-top icon"
-          alt="LinkedIn Icon"
-          onClick={handleClickLinkedIn}
-        />
         <Nav variant="pills">
           <Nav.Link href="/About">About</Nav.Link>
           {/* <Navbar.Collapse id="basic-navbar-nav">
@@ -55,6 +39,23 @@ const Navigation = () => {
           <Nav.Link href="/Projects">Projects</Nav.Link>
           <Nav.Link href="/Resume">Resume</Nav.Link>
         </Nav>
+        <img
+          src="./assets/images/gitHubIcon.png"
+          width="40"
+          height="40"
+          className="mx-1"
+          alt="GitHub Icon"
+          onClick={handleClickGitHub}
+          // style={{ margin: "10px" }}
+        />
+        <img
+          src="./assets/images/linkedInIcon.png"
+          width="50"
+          height="40"
+          className="mx-1"
+          alt="LinkedIn Icon"
+          onClick={handleClickLinkedIn}
+        />
       </Navbar>
       <Switch>
         <Route path="/">
