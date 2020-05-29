@@ -21,9 +21,13 @@ const Navigation = () => {
         <Navbar.Brand href="#home">
           <h2>Abelard Bautista</h2>
         </Navbar.Brand>
-        <Navbar.Text className="mr-auto">{`abelardbautista@gmail.com ● (619) 549 7683`}</Navbar.Text>
+        <Navbar.Text>abelardbautista@gmail.com</Navbar.Text>
+        <Navbar.Text className="mx-2">●</Navbar.Text>
+        <Navbar.Text className="mr-auto">(619) 549 7683</Navbar.Text>
         <Nav variant="pills">
-          <Nav.Link href="/About">About</Nav.Link>
+          <Nav.Link href="/About" className="my-auto">
+            About
+          </Nav.Link>
           {/* <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
           <NavDropdown title="Projects" id="basic-nav-dropdown">
@@ -36,26 +40,33 @@ const Navigation = () => {
           </NavDropdown>
           </Nav>
         </Navbar.Collapse> */}
-          <Nav.Link href="/Projects">Projects</Nav.Link>
-          <Nav.Link href="/Resume">Resume</Nav.Link>
+          <Nav.Link href="/Projects" className="my-auto">
+            Projects
+          </Nav.Link>
+          <Nav.Link href="/Resume" className="my-auto">
+            Resume
+          </Nav.Link>
+          <Nav.Link>
+            <img
+              src="./assets/images/gitHubIcon.png"
+              width="40"
+              height="40"
+              className="mr-2"
+              alt="GitHub Icon"
+              onClick={handleClickGitHub}
+            />
+            <img
+              src="./assets/images/linkedInIcon.png"
+              width="50"
+              height="40"
+              alt="LinkedIn Icon"
+              onClick={handleClickLinkedIn}
+            />
+          </Nav.Link>
+          {/* <Nav.Link>
+            
+          </Nav.Link> */}
         </Nav>
-        <img
-          src="./assets/images/gitHubIcon.png"
-          width="40"
-          height="40"
-          className="mx-1"
-          alt="GitHub Icon"
-          onClick={handleClickGitHub}
-          // style={{ margin: "10px" }}
-        />
-        <img
-          src="./assets/images/linkedInIcon.png"
-          width="50"
-          height="40"
-          className="mx-1"
-          alt="LinkedIn Icon"
-          onClick={handleClickLinkedIn}
-        />
       </Navbar>
       <Switch>
         <Route path="/">
