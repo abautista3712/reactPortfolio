@@ -63,18 +63,13 @@ const Navigation = () => {
               onClick={handleClickLinkedIn}
             />
           </Nav.Link>
-          {/* <Nav.Link>
-            
-          </Nav.Link> */}
         </Nav>
       </Navbar>
       <Switch>
         <Route path="/">
           <About />
         </Route>
-        <Route path="/About">
-          <About />
-        </Route>
+        <Route path="/About"></Route>
         <Route path="/Projects">
           <Projects />
         </Route>
