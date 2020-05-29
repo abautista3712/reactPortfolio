@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Switch, Route } from "react-router-dom";
+import { BrowserRouter as Link, Switch, Route } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import About from "../pages/About";
@@ -18,6 +18,10 @@ const Navigation = () => {
   const handleClickResume = () => {
     window.open(`./assets/documents/resume.pdf`, `_blank`, `fullscreen=yes`);
     return false;
+  };
+
+  const pageRedirect = () => {
+    return <Link to="/Projects" />;
   };
 
   return (
@@ -45,7 +49,7 @@ const Navigation = () => {
           </NavDropdown>
           </Nav>
         </Navbar.Collapse> */}
-          <Nav.Link href="/Projects" className="my-auto">
+          <Nav.Link href="/Projects" className="my-auto" onClick={pageRedirect}>
             Projects
           </Nav.Link>
           <Nav.Link href="" className="my-auto" onClick={handleClickResume}>
@@ -71,11 +75,11 @@ const Navigation = () => {
         </Nav>
       </Navbar>
       <Switch>
-        <Route path={["/", "/About"]}>
-          <About />
-        </Route>
         <Route path="/Projects">
           <Projects />
+        </Route>
+        <Route path={["/", "/About"]}>
+          <About />
         </Route>
         <Route path="/Resume">
           <Resume />
