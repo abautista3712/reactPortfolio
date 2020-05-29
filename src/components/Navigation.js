@@ -8,6 +8,13 @@ import Resume from "../pages/Resume";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
+  const handleClickGitHub = () => {
+    window.open("https://www.github.com/abautista3712", "_blank");
+  };
+  const handleClickLinkedIn = () => {
+    window.open("https://www.linkedin.com/in/abelard-bautista", "_blank");
+  };
+
   return (
     <div>
       <Navbar expand="sm" bg="dark" variant="dark">
@@ -15,6 +22,22 @@ const Navigation = () => {
           <h2>Abelard Bautista</h2>
         </Navbar.Brand>
         <Navbar.Text className="mr-auto">{`abelardbautista@gmail.com ● (619) 549 7683`}</Navbar.Text>
+        <img
+          src="./assets/images/gitHubIcon.png"
+          width="40"
+          height="40"
+          className="d-inline-block align-top icon"
+          alt="GitHub Icon"
+          onClick={handleClickGitHub}
+        />
+        <img
+          src="./assets/images/linkedInIcon.png"
+          width="50"
+          height="40"
+          className="d-inline-block align-top icon"
+          alt="LinkedIn Icon"
+          onClick={handleClickLinkedIn}
+        />
         <Nav variant="pills">
           <Nav.Link href="/About">About</Nav.Link>
           {/* <Navbar.Collapse id="basic-navbar-nav">
