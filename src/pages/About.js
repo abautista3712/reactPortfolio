@@ -9,10 +9,7 @@ import Button from "react-bootstrap/Button";
 const About = () => {
   return (
     <Card border="secondary" bg="dark" text="light">
-      <Card.Header bg="light" as="h5">
-        About Me
-      </Card.Header>
-      {/* <Container> */}
+      <Card.Header as="h5">About Me</Card.Header>
       <Container>
         <Row>
           <Col xs={12} md={6}>
