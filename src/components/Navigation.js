@@ -71,10 +71,9 @@ const Navigation = () => {
         </Nav>
       </Navbar>
       <Switch>
-        <Route path="/">
+        <Route path={["/", "/About"]}>
           <About />
         </Route>
-        <Route path="/About"></Route>
         <Route path="/Projects">
           <Projects />
         </Route>
