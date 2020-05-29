@@ -8,13 +8,13 @@ import Button from "react-bootstrap/Button";
 
 const About = () => {
   return (
-    <Card border="secondary" bg="dark" text="light">
+    <Card border="secondary" bg="dark" text="light" className="mx-auto">
       <Card.Header as="h5" className="cardHeader">
         About Me
       </Card.Header>
       <Container>
         <Row>
-          <Col xs={12} md={6} className="my-auto">
+          <Col xs={12} sm={12} md={6} className="my-auto">
             <Image
               src="./assets/images/ProfilePicSquare.jpg"
               fluid
