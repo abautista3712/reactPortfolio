@@ -9,10 +9,12 @@ import Button from "react-bootstrap/Button";
 const About = () => {
   return (
     <Card border="secondary" bg="dark" text="light">
-      <Card.Header as="h5">About Me</Card.Header>
+      <Card.Header as="h5" className="cardHeader">
+        About Me
+      </Card.Header>
       <Container>
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} className="my-auto">
             <Image
               src="./assets/images/ProfilePicSquare.jpg"
               fluid
