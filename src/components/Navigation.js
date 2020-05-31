@@ -30,9 +30,11 @@ const Navigation = () => {
         <Navbar.Brand href="/About">
           <h2>Abelard Bautista</h2>
         </Navbar.Brand>
-        <Navbar.Text>abelardbautista@gmail.com</Navbar.Text>
-        <Navbar.Text className="mx-2">●</Navbar.Text>
-        <Navbar.Text className="mr-auto">(619) 549 7683</Navbar.Text>
+        <container className="mr-auto">
+          <Navbar.Text>abelardbautista@gmail.com</Navbar.Text>
+          <Navbar.Text className="mx-2">●</Navbar.Text>
+          <Navbar.Text>(619) 549 7683</Navbar.Text>
+        </container>
         <Nav variant="pills">
           <Nav.Link href="/About" className="my-auto">
             About
@@ -60,7 +62,7 @@ const Navigation = () => {
               src="./assets/images/gitHubIcon.png"
               width="40"
               height="40"
-              className="mr-2"
+              className="my-1 mr-2"
               alt="GitHub Icon"
               onClick={handleClickGitHub}
             />
@@ -74,7 +76,7 @@ const Navigation = () => {
           </Nav.Link>
         </Nav>
       </Navbar>
-      <Switch>
+      {/* <Switch>
         <Route path="/Projects">
           <Projects />
         </Route>
@@ -84,7 +86,7 @@ const Navigation = () => {
         <Route path="/Resume">
           <Resume />
         </Route>
-      </Switch>
+      </Switch> */}
     </div>
   );
 };
