@@ -4,7 +4,7 @@ import { BrowserRouter as Switch, Route } from "react-router-dom";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 
-const CardBody = () => {
+const CardBodyHeader = () => {
   return (
     <Card border="secondary" bg="dark" text="light" className="mx-auto">
       <Card.Header as="h5" className="cardHeader">
@@ -31,4 +31,4 @@ const CardBody = () => {
   );
 };
 
-export default CardBody;
+export default CardBodyHeader;
