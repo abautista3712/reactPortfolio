@@ -1,10 +1,7 @@
 import React from "react";
-import { BrowserRouter as Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import About from "../pages/About";
-import Projects from "../pages/Projects";
-import Resume from "../pages/Resume";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
@@ -76,17 +73,6 @@ const Navigation = () => {
           </Nav.Link>
         </Nav>
       </Navbar>
-      {/* <Switch>
-        <Route path="/Projects">
-          <Projects />
-        </Route>
-        <Route path={["/", "/About"]}>
-          <About />
-        </Route>
-        <Route path="/Resume">
-          <Resume />
-        </Route>
-      </Switch> */}
     </div>
   );
 };
