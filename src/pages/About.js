@@ -12,7 +12,7 @@ const About = () => {
       <Row>
         <Col xs={12} sm={12} md={6} className="my-auto">
           <Image
-            src="./assets/images/ProfilePicSquare.jpg"
+            src="./assets/images/resized/profilePicSquare.jpg"
             fluid
             roundedCircle
           />

@@ -56,7 +56,7 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link>
             <img
-              src="./assets/images/gitHubIcon.png"
+              src="./assets/images/icons/gitHubIcon.png"
               width="40"
               height="40"
               className="my-1 mr-2"
@@ -64,7 +64,7 @@ const Navigation = () => {
               onClick={handleClickGitHub}
             />
             <img
-              src="./assets/images/linkedInIcon.png"
+              src="./assets/images/icons/linkedInIcon.png"
               width="50"
               height="40"
               alt="LinkedIn Icon"

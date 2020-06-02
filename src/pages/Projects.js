@@ -6,40 +6,44 @@ import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 
 const projectOne = () => {
-  return <Image src="./assets/images/inOrOut.PNG" rounded fluid />;
+  return <Image src="./assets/images/resized/inOrOut3by2.jpg" rounded fluid />;
 };
 
 const projectTwo = () => {
-  return <Image src="./assets/images/weatherNow.PNG" rounded fluid />;
+  return (
+    <Image src="./assets/images/resized/dayPlanner3by2.png" rounded fluid />
+  );
 };
 
 const projectThree = () => {
-  return <Image src="./assets/images/dayPlanner.PNG" rounded fluid />;
+  return (
+    <Image src="./assets/images/resized/weatherNow3by2.jpg" rounded fluid />
+  );
 };
 
 const projectFour = () => {
-  return <Image src="./assets/images/noteTaker.PNG" rounded fluid />;
+  return (
+    <Image src="./assets/images/resized/noteTaker3by2.png" rounded fluid />
+  );
 };
 
 const projectFive = () => {
   return (
-    <Image
-      src="./assets/images/nodeExpressHandlebarsScreenshot.PNG"
-      rounded
-      fluid
-    />
+    <Image src="./assets/images/resized/eatDaBurger3by2.png" rounded fluid />
   );
 };
 
 const projectSix = () => {
-  return <Image src="./assets/images/covid19Tracker.PNG" rounded fluid />;
+  return (
+    <Image src="./assets/images/resized/covid19Tracker3by2.png" rounded fluid />
+  );
 };
 
 const Projects = () => {
   return (
     <Container>
       <Row>
-        <Col className="projectCardSizing">{projectOne()}</Col>
+        <Col>{projectOne()}</Col>
         <Col>{projectTwo()}</Col>
         <Col>{projectThree()}</Col>
       </Row>
