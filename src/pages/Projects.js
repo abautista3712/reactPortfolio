@@ -1,56 +1,38 @@
 import React from "react";
-// import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
-
-const projectOne = () => {
-  return <Image src="./assets/images/resized/inOrOut3by2.jpg" rounded fluid />;
-};
-
-const projectTwo = () => {
-  return (
-    <Image src="./assets/images/resized/dayPlanner3by2.png" rounded fluid />
-  );
-};
-
-const projectThree = () => {
-  return (
-    <Image src="./assets/images/resized/weatherNow3by2.jpg" rounded fluid />
-  );
-};
-
-const projectFour = () => {
-  return (
-    <Image src="./assets/images/resized/noteTaker3by2.png" rounded fluid />
-  );
-};
-
-const projectFive = () => {
-  return (
-    <Image src="./assets/images/resized/eatDaBurger3by2.png" rounded fluid />
-  );
-};
-
-const projectSix = () => {
-  return (
-    <Image src="./assets/images/resized/covid19Tracker3by2.png" rounded fluid />
-  );
-};
+import InOrOut from "../components/projectCards/InOrOut";
+import DayPlanner from "../components/projectCards/DayPlanner";
+import WeatherNow from "../components/projectCards/WeatherNow";
+import NoteTaker from "../components/projectCards/NoteTaker";
+import EatDaBurger from "../components/projectCards/EatDaBurger";
+import Covid19Tracker from "../components/projectCards/Covid19Tracker";
 
 const Projects = () => {
   return (
     <Container>
       <Row>
-        <Col>{projectOne()}</Col>
-        <Col>{projectTwo()}</Col>
-        <Col>{projectThree()}</Col>
+        <Col>
+          <InOrOut />
+        </Col>
+        <Col>
+          <DayPlanner />
+        </Col>
+        <Col>
+          <WeatherNow />
+        </Col>
       </Row>
       <Row>
-        <Col>{projectFour()}</Col>
-        <Col>{projectFive()}</Col>
-        <Col>{projectSix()}</Col>
+        <Col>
+          <NoteTaker />
+        </Col>
+        <Col>
+          <EatDaBurger />
+        </Col>
+        <Col>
+          <Covid19Tracker />
+        </Col>
       </Row>
     </Container>
   );
