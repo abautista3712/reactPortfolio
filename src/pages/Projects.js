@@ -12,7 +12,7 @@ import Covid19Tracker from "../components/projectCards/Covid19Tracker";
 const Projects = () => {
   return (
     <Container>
-      <Row>
+      <Row className="my-4">
         <Col>
           <InOrOut />
         </Col>
@@ -23,7 +23,7 @@ const Projects = () => {
           <WeatherNow />
         </Col>
       </Row>
-      <Row>
+      <Row className="my-4">
         <Col>
           <NoteTaker />
         </Col>
