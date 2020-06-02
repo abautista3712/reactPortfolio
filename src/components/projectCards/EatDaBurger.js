@@ -3,12 +3,12 @@ import Card from "react-bootstrap/Card";
 
 const EatDaBurger = () => {
   return (
-    <Card className="">
+    <Card>
       <Card.Img
         src="./assets/images/resized/eatDaBurger3by2.png"
         alt="Card image"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="darkenImage">
         <Card.Title>Eat-Da-Burger</Card.Title>
         <Card.Text>
           A program utilizing mySQL and node express-handlebars to keep track of

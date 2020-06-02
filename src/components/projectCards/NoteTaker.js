@@ -3,12 +3,12 @@ import Card from "react-bootstrap/Card";
 
 const NoteTaker = () => {
   return (
-    <Card className="">
+    <Card>
       <Card.Img
         src="./assets/images/resized/noteTaker3by2.png"
         alt="Card image"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="darkenImage">
         <Card.Title>Note Taker</Card.Title>
         <Card.Text>
           A program utilizing a node.js express server for the user to read,

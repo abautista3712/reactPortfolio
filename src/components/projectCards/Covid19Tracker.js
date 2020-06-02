@@ -3,12 +3,12 @@ import Card from "react-bootstrap/Card";
 
 const Covid19Tracker = () => {
   return (
-    <Card className="">
+    <Card>
       <Card.Img
         src="./assets/images/resized/covid19Tracker3by2.png"
         alt="Card image"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="darkenImage">
         <Card.Title>Covid-19 Tracker</Card.Title>
         <Card.Text>
           Data tracker of Covid-19 global cases visualized via heatmap.

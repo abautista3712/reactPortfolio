@@ -3,12 +3,14 @@ import Card from "react-bootstrap/Card";
 
 const DayPlanner = () => {
   return (
-    <Card className="">
-      <Card.Img
-        src="./assets/images/resized/dayPlanner3by2.png"
-        alt="Card image"
-      />
-      <Card.ImgOverlay>
+    <Card>
+      <div>
+        <Card.Img
+          src="./assets/images/resized/dayPlanner3by2.png"
+          alt="Card image"
+        />
+      </div>
+      <Card.ImgOverlay className="darkenImage">
         <Card.Title>Day Planner</Card.Title>
         <Card.Text>
           An editable web application capable of recording the user's schedule

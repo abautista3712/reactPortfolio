@@ -3,12 +3,12 @@ import Card from "react-bootstrap/Card";
 
 const InOrOut = () => {
   return (
-    <Card className="">
+    <Card>
       <Card.Img
         src="./assets/images/resized/inOrOut3by2.jpg"
         alt="Card image"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="darkenImage">
         <Card.Title>In or Out</Card.Title>
         <Card.Text>
           An interactive web application designed to help a user decide between

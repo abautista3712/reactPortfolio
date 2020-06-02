@@ -5,3 +5,8 @@ body {
 .cardHeader {
   background-color: #4e5861;
 }
+
+.darkenImage {
+  background-color: #000;
+  opacity: 70%;
+}
