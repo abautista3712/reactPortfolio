@@ -10,7 +10,9 @@ const Covid19Tracker = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>Covid-19 Tracker</Card.Title>
-        <Card.Text>Description of the project goes here.</Card.Text>
+        <Card.Text>
+          Data tracker of Covid-19 global cases visualized via heatmap.
+        </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
       </Card.ImgOverlay>
     </Card>

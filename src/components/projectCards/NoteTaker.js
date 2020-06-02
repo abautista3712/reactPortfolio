@@ -10,7 +10,10 @@ const NoteTaker = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>Note Taker</Card.Title>
-        <Card.Text>Description of the project goes here.</Card.Text>
+        <Card.Text>
+          A program utilizing a node.js express server for the user to read,
+          write, and delete notes.
+        </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
       </Card.ImgOverlay>
     </Card>

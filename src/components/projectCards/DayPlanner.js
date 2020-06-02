@@ -10,7 +10,10 @@ const DayPlanner = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>Day Planner</Card.Title>
-        <Card.Text>Description of the project goes here.</Card.Text>
+        <Card.Text>
+          An editable web application capable of recording the user's schedule
+          by the hour.
+        </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
       </Card.ImgOverlay>
     </Card>

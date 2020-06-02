@@ -10,7 +10,10 @@ const WeatherNow = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>WeatherNow</Card.Title>
-        <Card.Text>Description of the project goes here.</Card.Text>
+        <Card.Text>
+          A web application that provides the weather conditions for a
+          user-chosen city.
+        </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
       </Card.ImgOverlay>
     </Card>

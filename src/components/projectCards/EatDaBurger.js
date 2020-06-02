@@ -10,7 +10,10 @@ const EatDaBurger = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>Eat-Da-Burger</Card.Title>
-        <Card.Text>Description of the project goes here.</Card.Text>
+        <Card.Text>
+          A program utilizing mySQL and node express-handlebars to keep track of
+          a list of burgers.
+        </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
       </Card.ImgOverlay>
     </Card>

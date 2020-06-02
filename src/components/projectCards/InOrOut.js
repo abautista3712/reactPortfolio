@@ -10,7 +10,10 @@ const InOrOut = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>In or Out</Card.Title>
-        <Card.Text>Description of the project goes here.</Card.Text>
+        <Card.Text>
+          An interactive web application designed to help a user decide between
+          eating in or eating out.
+        </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
       </Card.ImgOverlay>
     </Card>
