@@ -15,6 +15,12 @@ const EatDaBurger = () => {
           a list of burgers.
         </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
+        <Card.Link href="https://mysterious-wildwood-12100.herokuapp.com/">
+          Demo
+        </Card.Link>
+        <Card.Link href="https://github.com/abautista3712/nodeExpressHandlebars">
+          GitHub
+        </Card.Link>
       </Card.ImgOverlay>
     </Card>
   );
