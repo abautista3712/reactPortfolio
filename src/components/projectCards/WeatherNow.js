@@ -17,6 +17,12 @@ const WeatherNow = () => {
           user-chosen city.
         </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
+        <Card.Link href="https://abautista3712.github.io/WeatherDashboard/">
+          Demo
+        </Card.Link>
+        <Card.Link href="https://github.com/abautista3712/WeatherDashboard">
+          GitHub
+        </Card.Link>
       </Card.ImgOverlay>
     </Card>
   );
