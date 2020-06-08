@@ -14,8 +14,13 @@ const Covid19Tracker = () => {
           Data tracker of Covid-19 global cases visualized via heatmap.
         </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
-        <Card.Link href="http://plague.site/">Demo</Card.Link>
-        <Card.Link href="https://github.com/yankidank/covid-19-tracker/commits/master">
+        <Card.Link href="http://plague.site/" target="_blank">
+          Demo
+        </Card.Link>
+        <Card.Link
+          href="https://github.com/yankidank/covid-19-tracker/commits/master"
+          target="_blank"
+        >
           GitHub
         </Card.Link>
       </Card.ImgOverlay>

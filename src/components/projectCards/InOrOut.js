@@ -15,10 +15,16 @@ const InOrOut = () => {
           eating in or eating out.
         </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
-        <Card.Link href="https://github.com/abautista3712/WeatherDashboard">
+        <Card.Link
+          href="https://github.com/abautista3712/WeatherDashboard"
+          target="_blank"
+        >
           Demo
         </Card.Link>
-        <Card.Link href="https://github.com/abautista3712/In-or-Out">
+        <Card.Link
+          href="https://github.com/abautista3712/In-or-Out"
+          target="_blank"
+        >
           GitHub
         </Card.Link>
       </Card.ImgOverlay>

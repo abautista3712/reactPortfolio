@@ -17,10 +17,16 @@ const DayPlanner = () => {
           by the hour.
         </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
-        <Card.Link href="https://abautista3712.github.io/DayPlanner/">
+        <Card.Link
+          href="https://abautista3712.github.io/DayPlanner/"
+          target="_blank"
+        >
           Demo
         </Card.Link>
-        <Card.Link href="https://github.com/abautista3712/DayPlanner">
+        <Card.Link
+          href="https://github.com/abautista3712/DayPlanner"
+          target="_blank"
+        >
           GitHub
         </Card.Link>
       </Card.ImgOverlay>

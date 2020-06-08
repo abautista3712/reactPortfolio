@@ -15,10 +15,16 @@ const NoteTaker = () => {
           write, and delete notes.
         </Card.Text>
         <Card.Text>Languages Used:</Card.Text>
-        <Card.Link href="https://stormy-wildwood-71353.herokuapp.com/">
+        <Card.Link
+          href="https://stormy-wildwood-71353.herokuapp.com/"
+          target="_blank"
+        >
           Demo
         </Card.Link>
-        <Card.Link href="https://github.com/abautista3712/noteTaker">
+        <Card.Link
+          href="https://github.com/abautista3712/noteTaker"
+          target="_blank"
+        >
           GitHub
         </Card.Link>
       </Card.ImgOverlay>
