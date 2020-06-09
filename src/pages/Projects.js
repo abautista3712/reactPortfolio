@@ -10,18 +10,27 @@ import Covid19Tracker from "../components/projectCards/Covid19Tracker";
 const Projects = () => {
   return (
     <Container>
-      <Row className="my-4">
-        <Col>
+      <Row className="my-3 textSize">
+        <Col className="my-3" xs={12} sm={12} md={6} lg={4}>
           <InOrOut />
         </Col>
-        <Col>
+        <Col className="my-3" xs={12} sm={12} md={6} lg={4}>
           <DayPlanner />
         </Col>
-        <Col>
+        <Col className="my-3" xs={12} sm={12} md={6} lg={4}>
           <WeatherNow />
         </Col>
+        <Col className="my-3" xs={12} sm={12} md={6} lg={4}>
+          <NoteTaker />
+        </Col>
+        <Col className="my-3" xs={12} sm={12} md={6} lg={4}>
+          <EatDaBurger />
+        </Col>
+        <Col className="my-3" xs={12} sm={12} md={6} lg={4}>
+          <Covid19Tracker />
+        </Col>
       </Row>
-      <Row className="my-4">
+      {/* <Row className="my-4">
         <Col>
           <NoteTaker />
         </Col>
@@ -31,7 +40,7 @@ const Projects = () => {
         <Col>
           <Covid19Tracker />
         </Col>
-      </Row>
+      </Row> */}
     </Container>
   );
 };

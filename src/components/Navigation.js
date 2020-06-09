@@ -22,16 +22,16 @@ const Navigation = () => {
 
   return (
     <div>
-      <Navbar expand="sm" bg="dark" variant="dark">
+      <Navbar expand="sm" bg="dark" variant="dark" className="my-auto py-1">
         <Navbar.Brand href="/About">
-          <h2>Abelard Bautista</h2>
+          <h3>Abelard Bautista</h3>
         </Navbar.Brand>
-        <container className="mr-auto">
+        <container className="mr-auto textSize">
           <Navbar.Text>abelardbautista@gmail.com</Navbar.Text>
           <Navbar.Text className="mx-2">●</Navbar.Text>
           <Navbar.Text>(619) 549 7683</Navbar.Text>
         </container>
-        <Nav variant="pills">
+        <Nav variant="pills" className="navLinkSize">
           <Nav.Link href="/About" className="my-auto">
             About
           </Nav.Link>
@@ -56,16 +56,16 @@ const Navigation = () => {
           <Nav.Link>
             <img
               src="./assets/images/icons/gitHubIcon.png"
-              width="40"
-              height="40"
+              width="35"
+              height="35"
               className="my-1 mr-2"
               alt="GitHub Icon"
               onClick={handleClickGitHub}
             />
             <img
               src="./assets/images/icons/linkedInIcon.png"
-              width="50"
-              height="40"
+              width="45"
+              height="35"
               alt="LinkedIn Icon"
               onClick={handleClickLinkedIn}
             />

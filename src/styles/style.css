@@ -1,11 +1,22 @@
+/* Multiple Pages */
 body {
   background-color: #333a40;
+}
+
+.navLinkSize {
+  font-size: 15px;
 }
 
 .cardHeader {
   background-color: #4e5861;
 }
 
+/* About */
+.textSize {
+  font-size: 13px;
+}
+
+/* Projects */
 .darkenImage {
   background-color: #000;
   opacity: 70%;

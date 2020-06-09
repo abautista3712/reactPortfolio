@@ -5,11 +5,12 @@ const About = () => {
   return (
     <Container>
       <Row>
-        <Col xs={12} sm={12} md={6} className="my-auto">
+        <Col xs={12} sm={12} md={5} className="my-4">
           <Image
             src="./assets/images/resized/profilePicSquare.jpg"
             fluid
             roundedCircle
+            style={{ maxHeight: 425 }}
           />
         </Col>
         <Col fluid="true">
@@ -17,7 +18,7 @@ const About = () => {
             <Card.Title>
               Full-Stack Software Developer in Los Angeles
             </Card.Title>
-            <Card.Text>
+            <Card.Text className="textSize">
               Hello! My name is Abelard Bautista and I am an aspiring Software
               Developer. I am currently a laboratory supervisor in the field of
               reproductive genetics but I am looking into transitioning to a
@@ -33,7 +34,7 @@ const About = () => {
               contribute to the development of more of these productivity
               projects.
             </Card.Text>
-            <Card.Text>
+            <Card.Text className="textSize">
               Outside of my interest in tech, I have hobbies in beer, music, and
               plants. For the past two years, I have reviewed over 100+
               different beers that I have tried throughout the world. I have
