@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Navbar, Nav } from "react-bootstrap";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Navigation = () => {
