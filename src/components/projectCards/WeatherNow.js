@@ -16,7 +16,9 @@ const WeatherNow = () => {
           A web application that provides the weather conditions for a
           user-chosen city.
         </Card.Text>
-        <Card.Text>Languages Used:</Card.Text>
+        <Card.Text>
+          Tools Used: HTML, CSS, JavaScript, jQuery, OpenWeather API
+        </Card.Text>
         <Card.Link
           href="https://abautista3712.github.io/WeatherDashboard/"
           target="_blank"

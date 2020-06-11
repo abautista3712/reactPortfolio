@@ -16,7 +16,9 @@ const DayPlanner = () => {
           An editable web application capable of recording the user's schedule
           by the hour.
         </Card.Text>
-        <Card.Text>Languages Used:</Card.Text>
+        <Card.Text>
+          Tools Used: HTML, CSS, JavaScript, jQuery, Moment.js
+        </Card.Text>
         <Card.Link
           href="https://abautista3712.github.io/DayPlanner/"
           target="_blank"

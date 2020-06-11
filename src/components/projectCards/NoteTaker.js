@@ -14,7 +14,7 @@ const NoteTaker = () => {
           A program utilizing a node.js express server for the user to read,
           write, and delete notes.
         </Card.Text>
-        <Card.Text>Languages Used:</Card.Text>
+        <Card.Text>Tools Used: Node.js, Express</Card.Text>
         <Card.Link
           href="https://stormy-wildwood-71353.herokuapp.com/"
           target="_blank"

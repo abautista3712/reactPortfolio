@@ -14,7 +14,10 @@ const InOrOut = () => {
           An interactive web application designed to help a user decide between
           eating in or eating out.
         </Card.Text>
-        <Card.Text>Languages Used:</Card.Text>
+        <Card.Text>
+          Tools Used: HTML, CSS, Materialize, JavaScript, jQuery, Spoonacular
+          API, Google Maps API
+        </Card.Text>
         <Card.Link
           href="https://github.com/abautista3712/WeatherDashboard"
           target="_blank"

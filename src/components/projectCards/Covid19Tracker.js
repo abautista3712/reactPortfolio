@@ -13,7 +13,9 @@ const Covid19Tracker = () => {
         <Card.Text>
           Data tracker of Covid-19 global cases visualized via heatmap.
         </Card.Text>
-        <Card.Text>Languages Used:</Card.Text>
+        <Card.Text>
+          Tools Used: Bulma CSS Framework, Express, Moment.js, MySql, Sequelize
+        </Card.Text>
         <Card.Link href="http://plague.site/" target="_blank">
           Demo
         </Card.Link>
