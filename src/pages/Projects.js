@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import InOrOut from "../components/projectCards/InOrOut";
 import DayPlanner from "../components/projectCards/DayPlanner";
 import WeatherNow from "../components/projectCards/WeatherNow";

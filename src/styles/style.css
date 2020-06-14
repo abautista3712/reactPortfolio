@@ -3,15 +3,14 @@ body {
   background-color: #333a40;
 }
 
-.navLinkSize {
-  font-size: 15px;
-}
-
 .cardHeader {
   background-color: #4e5861;
 }
 
-/* About */
+.navLinkSize {
+  font-size: 15px;
+}
+
 .textSize {
   font-size: 13px;
 }
