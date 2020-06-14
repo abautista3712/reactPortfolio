@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-const DayPlanner = () => {
+const DayPlannerText = () => {
   return (
     <Card>
       <Card.Img
@@ -35,4 +35,4 @@ const DayPlanner = () => {
   );
 };
 
-export default DayPlanner;
+export default DayPlannerText;

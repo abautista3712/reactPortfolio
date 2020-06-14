@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-const Covid19Tracker = () => {
+const Covid19TrackerText = () => {
   return (
     <Card>
       <Card.Img
@@ -31,4 +31,4 @@ const Covid19Tracker = () => {
   );
 };
 
-export default Covid19Tracker;
+export default Covid19TrackerText;

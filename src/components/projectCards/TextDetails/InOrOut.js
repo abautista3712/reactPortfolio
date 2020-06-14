@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Card from "react-bootstrap/Card";
 
-const InOrOut = () => {
+const InOrOutText = () => {
   return (
     <Card>
       <Card.Img
         src="./assets/images/resized/inOrOut3by2.jpg"
-        alt="Card image"
+        alt="Darkened card image with Text"
         className="darkenImage"
       />
       <Card.ImgOverlay>
@@ -36,4 +36,4 @@ const InOrOut = () => {
   );
 };
 
-export default InOrOut;
+export default InOrOutText;
