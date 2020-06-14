@@ -1,0 +1,4 @@
+/* Projects */
+.darkenImage {
+  filter: brightness(0.3);
+}

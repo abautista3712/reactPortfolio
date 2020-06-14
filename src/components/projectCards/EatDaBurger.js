@@ -7,8 +7,9 @@ const EatDaBurger = () => {
       <Card.Img
         src="./assets/images/resized/eatDaBurger3by2.png"
         alt="Card image"
+        className="darkenImage"
       />
-      <Card.ImgOverlay className="darkenImage">
+      <Card.ImgOverlay>
         <Card.Title>Eat-Da-Burger</Card.Title>
         <Card.Text>
           A simple program designed to keep track of a list of burgers.

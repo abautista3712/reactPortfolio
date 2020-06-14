@@ -4,13 +4,12 @@ import Card from "react-bootstrap/Card";
 const WeatherNow = () => {
   return (
     <Card>
-      <div>
-        <Card.Img
-          src="./assets/images/resized/weatherNow3by2.jpg"
-          alt="Card image"
-        />
-      </div>
-      <Card.ImgOverlay className="darkenImage">
+      <Card.Img
+        src="./assets/images/resized/weatherNow3by2.jpg"
+        alt="Card image"
+        className="darkenImage"
+      />
+      <Card.ImgOverlay>
         <Card.Title>WeatherNow</Card.Title>
         <Card.Text>
           A web application that provides the weather conditions for a

@@ -7,8 +7,9 @@ const Covid19Tracker = () => {
       <Card.Img
         src="./assets/images/resized/covid19Tracker3by2.png"
         alt="Card image"
+        className="darkenImage"
       />
-      <Card.ImgOverlay className="darkenImage">
+      <Card.ImgOverlay>
         <Card.Title>Covid-19 Tracker</Card.Title>
         <Card.Text>
           Data tracker of Covid-19 global cases visualized via heatmap.
