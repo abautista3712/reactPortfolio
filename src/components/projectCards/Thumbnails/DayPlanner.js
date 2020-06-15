@@ -18,16 +18,17 @@ const DayPlanner = () => {
             <Container>
               <Row>
                 <Col
-                  xs={6}
-                  sm={6}
+                  xs={3}
+                  sm={3}
                   md={4}
                   lg={4}
                   xl={4}
                   style={{ fontSize: 13 }}
+                  className="centerFlex"
                 >
                   Tools Utilized:
                 </Col>
-                <Col style={{ fontSize: 10 }}>
+                <Col style={{ fontSize: 12 }} className="centerFlex">
                   HTML, CSS, JavaScript, jQuery, Moment.js API
                 </Col>
               </Row>
