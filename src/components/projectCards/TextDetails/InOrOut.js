@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 
 const InOrOutText = () => {
@@ -20,7 +20,7 @@ const InOrOutText = () => {
           API, Google Maps API
         </Card.Text>
         <Card.Link
-          href="https://github.com/abautista3712/WeatherDashboard"
+          href="https://abautista3712.github.io/In-or-Out/"
           target="_blank"
         >
           Demo
