@@ -9,18 +9,18 @@ const CardBodyContainer = () => {
     <Card border="secondary" bg="dark" text="light" className="mx-auto">
       <Card.Header as="h6" className="py-2 cardHeader">
         <Switch>
-          <Route path="/Projects">Projects</Route>
-          <Route path="/About">About</Route>
+          <Route path="/projects">Projects</Route>
+          <Route path="/about">About</Route>
           <Route exact path="/">
             About
           </Route>
         </Switch>
       </Card.Header>
       <Switch>
-        <Route path="/Projects">
+        <Route path="/projects">
           <Projects />
         </Route>
-        <Route path="/About">
+        <Route path="/about">
           <About />
         </Route>
         <Route exact path="/">
