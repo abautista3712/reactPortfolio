@@ -17,8 +17,8 @@ const InOrOutThumb = () => {
             <Container>
               <Row>
                 <Col
-                  xs={4}
-                  sm={4}
+                  xs={6}
+                  sm={6}
                   md={4}
                   lg={4}
                   xl={4}
