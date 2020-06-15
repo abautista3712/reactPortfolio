@@ -17,13 +17,13 @@ const Navigation = () => {
   };
 
   const pageRedirect = () => {
-    return <Link to="/Projects" />;
+    return <Link to="/projects" />;
   };
 
   return (
     <div>
       <Navbar expand="sm" bg="dark" variant="dark" className="my-auto py-1">
-        <Navbar.Brand href="/About">
+        <Navbar.Brand href="/about">
           <h3>Abelard Bautista</h3>
         </Navbar.Brand>
         <container className="mr-auto textSize">
@@ -32,7 +32,7 @@ const Navigation = () => {
           <Navbar.Text>(619) 549 7683</Navbar.Text>
         </container>
         <Nav variant="pills" className="navLinkSize">
-          <Nav.Link href="/About" className="my-auto">
+          <Nav.Link href="/about" className="my-auto">
             About
           </Nav.Link>
           {/* <Navbar.Collapse id="basic-navbar-nav">
@@ -47,7 +47,7 @@ const Navigation = () => {
           </NavDropdown>
           </Nav>
         </Navbar.Collapse> */}
-          <Nav.Link href="/Projects" className="my-auto" onClick={pageRedirect}>
+          <Nav.Link href="/projects" className="my-auto" onClick={pageRedirect}>
             Projects
           </Nav.Link>
           <Nav.Link href="" className="my-auto" onClick={handleClickResume}>
