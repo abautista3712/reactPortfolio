@@ -15,7 +15,7 @@ const Covid19TrackerText = () => {
           Data tracker of Covid-19 global cases visualized via heatmap.
         </Card.Text>
         <Card.Text>
-          Tools Used: Bulma CSS Framework, Express, Moment.js, MySql, Sequelize
+          Tools Used: Bulma CSS Framework, Express, Moment.js, MySQL, Sequelize
         </Card.Text>
         <Card.Link href="http://plague.site/" target="_blank">
           Demo
