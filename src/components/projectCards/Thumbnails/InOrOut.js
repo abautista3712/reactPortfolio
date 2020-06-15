@@ -11,7 +11,7 @@ const InOrOutThumb = () => {
       <Card.ImgOverlay className="px-0 centerFlex">
         <Card className="text-center thumbBanner">
           <Card.Text className="my-auto">
-            <h4>In or Out</h4>
+            <h3>In or Out</h3>
           </Card.Text>
           <Card.Text className="my-auto">
             <Container>
