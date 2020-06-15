@@ -2,3 +2,14 @@
 .darkenImage {
   filter: brightness(0.3);
 }
+
+.thumbBanner {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+}
+
+.centerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
