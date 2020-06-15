@@ -10,7 +10,7 @@ const InOrOutThumb = () => {
       />
       <Card.ImgOverlay className="px-0 centerFlex">
         <Card className="text-center thumbBanner">
-          <Card.Text className="my-auto">
+          <Card.Text className="my-auto" style={{ backgroundColor: "black" }}>
             <h3>In or Out</h3>
           </Card.Text>
           <Card.Text className="my-auto">
@@ -22,7 +22,7 @@ const InOrOutThumb = () => {
                   md={4}
                   lg={4}
                   xl={4}
-                  style={{ fontSize: 12 }}
+                  style={{ fontSize: 13 }}
                 >
                   Tools Utilized:
                 </Col>
