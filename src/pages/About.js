@@ -7,7 +7,7 @@ const About = () => {
       <Row>
         <Col xs={12} sm={12} md={5} className="my-4">
           <Image
-            src="./assets/images/resized/profilePicSquare.jpg"
+            src="./assets/images/resized/profilePicSquare.JPG"
             fluid
             roundedCircle
             style={{ maxHeight: 425 }}
