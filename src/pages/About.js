@@ -1,13 +1,14 @@
 import React from "react";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
 import ProfilePic from "../components/ProfilePic";
+import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
 
 const About = () => {
   return (
     <Container>
       <Row>
         <Col xs={12} sm={12} md={5} className="my-4">
-          <ProfilePic />
+          <InOrOutThumb />
         </Col>
         <Col fluid="true">
           <Card.Body>
