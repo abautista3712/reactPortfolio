@@ -10,13 +10,14 @@ const About = () => {
         <Col xs={12} sm={12} md={5} className="my-4">
           {/* <Card.Img */}
           {/* <Image */}
-          <img
-            src="./assets/images/resized/profilepicsquare.jpg"
+          {/* <img
+            src="./assets/images/resized/profilePicSquare.jpg"
             fluid
             roundedCircle
             style={{ borderRadius: 250, maxHeight: 425 }}
-          />
+          /> */}
           {/* /> */}
+          Testing Text
         </Col>
         <Col fluid="true">
           <Card.Body>
