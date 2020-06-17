@@ -1,16 +1,13 @@
 import React from "react";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
+import ProfilePic from "../components/ProfilePic";
 
 const About = () => {
   return (
     <Container>
       <Row>
         <Col xs={12} sm={12} md={5} className="my-4">
-          <img
-            src="./assets/images/resized/profilePicSquare.jpg"
-            alt="Rounded Profile Pic"
-            style={{ borderRadius: 250, maxHeight: 425 }}
-          />
+          <ProfilePic />
         </Col>
         <Col fluid="true">
           <Card.Body>
