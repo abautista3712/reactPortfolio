@@ -1,23 +1,24 @@
 import React from "react";
 import { Card, Container, Row, Col, Image, Button } from "react-bootstrap";
-import ProfilePic from "../components/ProfilePic";
-import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
+// import ProfilePicSource from "./assets/images/resized/profilePicSquare.jpg";
+// import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
+// import ProfilePic from "../components/ProfilePic";
 
 const About = () => {
+  // const ProfilePicSource =
   return (
     <Container>
       <Row>
         <Col xs={12} sm={12} md={5} className="my-4">
           {/* <Card.Img */}
-          {/* <Image */}
+          <Image />
           {/* <img
-            src="./assets/images/resized/profilePicSquare.jpg"
+            src={ProfilePicSource}
             fluid
             roundedCircle
-            style={{ borderRadius: 250, maxHeight: 425 }}
-          /> */}
+            style={{ borderRadius: 250, maxHeight: 425 }} */}
+
           {/* /> */}
-          Testing Text
         </Col>
         <Col fluid="true">
           <Card.Body>
