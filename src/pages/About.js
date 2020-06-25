@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Link } from "react-router-dom";
 import { Card, Container, Row, Col, Button } from "react-bootstrap";
 // import ProfilePicSource from "./assets/images/resized/profilePicSquare.jpg";
 // import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
@@ -6,6 +7,11 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap";
 
 const About = () => {
   // const ProfilePicSource =
+
+  const pageRedirect = () => {
+    return <Link to="/projects" />;
+  };
+
   return (
     <Container>
       <Row>
@@ -52,7 +58,9 @@ const About = () => {
               beer reviews and also work on other personal projects for people
               to enjoy.
             </Card.Text>
-            <Button variant="primary">Check Out My Projects</Button>
+            {/* <Button variant="primary" onClick={}>
+              Check Out My Projects
+            </Button> */}
           </Card.Body>
         </Col>
       </Row>
