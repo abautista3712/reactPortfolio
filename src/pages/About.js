@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Card, Container, Row, Col, Button } from "react-bootstrap";
 // import ProfilePicSource from "./assets/images/resized/profilePicSquare.jpg";
 // import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
 // import ProfilePic from "../components/ProfilePic";
@@ -11,14 +11,14 @@ const About = () => {
       <Row>
         <Col xs={12} sm={12} md={5} className="my-4">
           {/* <Card.Img */}
-          <Image />
-          {/* <img
-            src={ProfilePicSource}
+          {/* <Image /> */}
+          <img
+            src="./assets/images/resized/profilePicSquare.jpg"
             fluid
             roundedCircle
-            style={{ borderRadius: 250, maxHeight: 425 }} */}
-
-          {/* /> */}
+            alt="Circle Profile Pic"
+            style={{ borderRadius: 250, maxHeight: 425 }}
+          />
         </Col>
         <Col fluid="true">
           <Card.Body>
