@@ -16,14 +16,13 @@ const About = () => {
     <Container>
       <Row>
         <Col xs={12} sm={12} md={5} className="my-4">
-          {/* <Card.Img */}
-          {/* <Image /> */}
-          <img
+          <Card.Img
+            // <img
             src="./assets/images/resized/profilePicSquare.jpg"
             fluid
             roundedCircle
             alt="Circle Profile Pic"
-            style={{ borderRadius: 250, maxHeight: 425 }}
+            style={{ borderRadius: 250, maxHeight: 425, width: "auto" }}
           />
         </Col>
         <Col fluid="true">
