@@ -63,7 +63,7 @@ const Navigation = () => {
               onClick={handleClickGitHub}
             />
             <img
-              src="./assets/images/resized/profilePicSquare.jpg"
+              src="./assets/images/icons/linkedInIcon.png"
               width="45"
               height="35"
               alt="LinkedIn Icon"

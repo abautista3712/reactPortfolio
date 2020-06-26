@@ -18,7 +18,7 @@ const About = () => {
         <Col xs={12} sm={12} md={5} className="my-4">
           <Card.Img
             // <img
-            src="./assets/images/resized/profilePicSquare.jpg"
+            src="./assets/images/resized/profilePicSquare.png"
             fluid
             roundedCircle
             alt="Circle Profile Pic"
