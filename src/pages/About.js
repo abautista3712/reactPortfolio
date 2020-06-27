@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
-import { Card, Container, Row, Col, Button } from "react-bootstrap";
+import { Card, Container, Row, Col, Image } from "react-bootstrap";
 // import ProfilePicSource from "./assets/images/resized/profilePicSquare.jpg";
 // import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
 // import ProfilePic from "../components/ProfilePic";
@@ -15,17 +15,16 @@ const About = () => {
   return (
     <Container>
       <Row>
-        <Col xs={12} sm={12} md={5} className="my-4">
-          <Card.Img
-            // <img
+        <Col xs={12} sm={12} md={6} lg={6} xl={6} className="my-4">
+          <Image
             src="./assets/images/resized/profilePicSquare.png"
             fluid
             roundedCircle
             alt="Circle Profile Pic"
-            style={{ borderRadius: 250, maxHeight: 425, width: "auto" }}
+            // style={{ borderRadius: 250, maxHeight: 425, width: "auto" }}
           />
         </Col>
-        <Col fluid="true">
+        <Col xs={12} sm={12} md={6} lg={6} xl={6}>
           <Card.Body>
             <Card.Title>
               Full-Stack Software Developer in Los Angeles
