@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
+// import { BrowserRouter as Link } from "react-router-dom";
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
 
 const About = () => {
