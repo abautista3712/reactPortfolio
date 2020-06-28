@@ -1,16 +1,11 @@
 import React from "react";
 import { BrowserRouter as Link } from "react-router-dom";
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
-// import ProfilePicSource from "./assets/images/resized/profilePicSquare.jpg";
-// import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
-// import ProfilePic from "../components/ProfilePic";
 
 const About = () => {
-  // const ProfilePicSource =
-
-  const pageRedirect = () => {
-    return <Link to="/projects" />;
-  };
+  // const pageRedirect = () => {
+  //   return <Link to="/projects" />;
+  // };
 
   return (
     <Container>
@@ -21,7 +16,6 @@ const About = () => {
             fluid
             roundedCircle
             alt="Circle Profile Pic"
-            // style={{ borderRadius: 250, maxHeight: 425, width: "auto" }}
           />
         </Col>
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
