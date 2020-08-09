@@ -32,7 +32,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsIOOShown(true)}
           onMouseLeave={() => setIsIOOShown(false)}
         >
@@ -43,7 +43,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsDPShown(true)}
           onMouseLeave={() => setIsDPShown(false)}
         >
@@ -54,7 +54,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsWNShown(true)}
           onMouseLeave={() => setIsWNShown(false)}
         >
@@ -65,7 +65,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsNTShown(true)}
           onMouseLeave={() => setIsNTShown(false)}
         >
@@ -76,7 +76,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsEDBShown(true)}
           onMouseLeave={() => setIsEDBShown(false)}
         >
@@ -87,7 +87,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsC19TShown(true)}
           onMouseLeave={() => setIsC19TShown(false)}
         >
@@ -98,7 +98,7 @@ const Projects = () => {
           xs={12}
           sm={12}
           md={6}
-          lg={4}
+          lg={6}
           onMouseEnter={() => setIsBBShown(true)}
           onMouseLeave={() => setIsBBShown(false)}
         >
