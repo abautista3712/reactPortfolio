@@ -5,26 +5,21 @@ const BeerBookText = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/covid19Tracker3by2.png"
+        src="./assets/images/original/beerBook.png"
         alt="Card image"
         className="darkenImage"
       />
       <Card.ImgOverlay>
-        <Card.Title>Covid-19 Tracker</Card.Title>
+        <Card.Title>Beer Book ~COMING SOON~</Card.Title>
         <Card.Text>
-          Data tracker of Covid-19 global cases visualized via heatmap.
+          App for beer drinkers of all levels to keep track of which beers one
+          likes and which they don't.
         </Card.Text>
-        <Card.Text>
-          Tools Used: Bulma CSS Framework, jQuery, Node.js, Express, Moment.js,
-          MySQL, Sequelize
-        </Card.Text>
-        <Card.Link href="http://plague.site/" target="_blank">
+        <Card.Text>Tools Used:</Card.Text>
+        <Card.Link href="#" target="_blank">
           Demo
         </Card.Link>
-        <Card.Link
-          href="https://github.com/yankidank/covid-19-tracker/commits/master"
-          target="_blank"
-        >
+        <Card.Link href="#" target="_blank">
           GitHub
         </Card.Link>
       </Card.ImgOverlay>
