@@ -12,6 +12,8 @@ import EatDaBurgerText from "../components/projectCards/TextDetails/EatDaBurger"
 import EatDaBurgerThumb from "../components/projectCards/Thumbnails/EatDaBurger";
 import Covid19TrackerText from "../components/projectCards/TextDetails/Covid19Tracker";
 import Covid19TrackerThumb from "../components/projectCards/Thumbnails/Covid19Tracker";
+import BeerBookText from "../components/projectCards/TextDetails/BeerBook";
+import BeerBookThumb from "../components/projectCards/Thumbnails/BeerBook";
 
 const Projects = () => {
   const [isIOOShown, setIsIOOShown] = useState(false);
@@ -20,6 +22,7 @@ const Projects = () => {
   const [isNTShown, setIsNTShown] = useState(false);
   const [isEDBShown, setIsEDBShown] = useState(false);
   const [isC19TShown, setIsC19TShown] = useState(false);
+  const [isBBShown, setIsBBShown] = useState(false);
 
   return (
     <Container>
@@ -89,6 +92,17 @@ const Projects = () => {
           onMouseLeave={() => setIsC19TShown(false)}
         >
           {isC19TShown ? <Covid19TrackerText /> : <Covid19TrackerThumb />}
+        </Col>
+        <Col
+          className="my-3"
+          xs={12}
+          sm={12}
+          md={6}
+          lg={4}
+          onMouseEnter={() => setIsBBShown(true)}
+          onMouseLeave={() => setIsBBShown(false)}
+        >
+          {isBBShown ? <BeerBookText /> : <BeerBookThumb />}
         </Col>
       </Row>
     </Container>
