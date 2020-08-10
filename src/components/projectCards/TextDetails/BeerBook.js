@@ -10,7 +10,7 @@ const BeerBookText = () => {
         className="darkenImage"
       />
       <Card.ImgOverlay>
-        <Card.Title>Beer Book ~COMING SOON~</Card.Title>
+        <Card.Title>Beer Book</Card.Title>
         <Card.Text>
           App for beer drinkers of all levels to keep track of which beers one
           likes and which they don't.

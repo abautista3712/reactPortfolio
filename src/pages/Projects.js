@@ -102,8 +102,8 @@ const Projects = () => {
           onMouseEnter={() => setIsBBShown(true)}
           onMouseLeave={() => setIsBBShown(false)}
         >
-          {/* {isBBShown ? <BeerBookText /> : <BeerBookThumb />} */}
-          <BeerBookText />
+          {isBBShown ? <BeerBookText /> : <BeerBookThumb />}
+          {/* <BeerBookText /> */}
         </Col>
       </Row>
     </Container>
