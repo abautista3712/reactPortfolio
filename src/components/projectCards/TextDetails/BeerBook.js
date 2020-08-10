@@ -15,11 +15,19 @@ const BeerBookText = () => {
           App for beer drinkers of all levels to keep track of which beers one
           likes and which they don't.
         </Card.Text>
-        <Card.Text>Tools Used:</Card.Text>
-        <Card.Link href="#" target="_blank">
+        <Card.Text>
+          Tools Used: Mongo, Mongoose ODM, Express, React, Node.js
+        </Card.Text>
+        <Card.Link
+          href="https://floating-tor-57469.herokuapp.com/"
+          target="_blank"
+        >
           Demo
         </Card.Link>
-        <Card.Link href="#" target="_blank">
+        <Card.Link
+          href="https://github.com/sboulom/finalProject"
+          target="_blank"
+        >
           GitHub
         </Card.Link>
       </Card.ImgOverlay>
