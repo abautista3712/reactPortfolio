@@ -18,6 +18,13 @@ const BeerBookText = () => {
         <Card.Text>
           Tools Used: Mongo, Mongoose ODM, Express, React, Node.js
         </Card.Text>
+        <Card.Text>
+          Use the following credentials to demo
+          <br />
+          Username: Test
+          <br />
+          Password: Test
+        </Card.Text>
         <Card.Link
           href="https://floating-tor-57469.herokuapp.com/"
           target="_blank"
