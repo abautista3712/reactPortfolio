@@ -11,7 +11,7 @@ const BeerBookThumb = () => {
       <Card.ImgOverlay className="px-0 centerFlex">
         <Card className="text-center thumbBanner">
           <Card.Text className="my-auto" style={{ backgroundColor: "black" }}>
-            <h3>Covid-19 Tracker</h3>
+            <h3>Beer Book</h3>
           </Card.Text>
           <Card.Text className="my-auto">
             <Container>
