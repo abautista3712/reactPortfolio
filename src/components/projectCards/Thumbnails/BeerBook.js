@@ -28,8 +28,7 @@ const BeerBookThumb = () => {
                   Tools Utilized:
                 </Col>
                 <Col style={{ fontSize: 12 }} className="centerFlex">
-                  Bulma CSS Framework, jQuery, Node.js, Express, Moment.js,
-                  MySQL, Sequelize
+                  Mongo, Mongoose ODM, Express, React, Node.js
                 </Col>
               </Row>
             </Container>
