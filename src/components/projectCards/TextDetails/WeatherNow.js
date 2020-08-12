@@ -30,16 +30,22 @@ const WeatherNow = () => {
           Demo
         </Card.Link>
         <Card.Link
+          href="https://github.com/abautista3712/reactWeatherDashboard"
+          target="_blank"
+        >
+          GitHub
+        </Card.Link>
+        <Card.Link
           href="https://abautista3712.github.io/WeatherDashboard/"
           target="_blank"
         >
-          Archived Version
+          Archived Demo
         </Card.Link>
         <Card.Link
           href="https://github.com/abautista3712/WeatherDashboard"
           target="_blank"
         >
-          GitHub
+          Archived Demo GitHub
         </Card.Link>
       </Card.ImgOverlay>
     </Card>
