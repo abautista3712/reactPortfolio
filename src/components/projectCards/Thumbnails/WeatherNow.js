@@ -13,9 +13,26 @@ const WeatherNow = () => {
         <Card className="text-center thumbBanner">
           <Card.Text className="my-auto" style={{ backgroundColor: "black" }}>
             <h3>WeatherNow</h3>
+            <h6>-[NEW 08/2020] Remade for REACT-</h6>
           </Card.Text>
           <Card.Text className="my-auto">
             <Container>
+              <Row>
+                <Col
+                  xs={6}
+                  sm={6}
+                  md={4}
+                  lg={4}
+                  xl={4}
+                  style={{ fontSize: 13 }}
+                  className="centerFlex"
+                >
+                  New Tools Utilized:
+                </Col>
+                <Col style={{ fontSize: 12 }} className="centerFlex">
+                  React, OpenWeather One Call API
+                </Col>
+              </Row>
               <Row>
                 <Col
                   xs={6}
