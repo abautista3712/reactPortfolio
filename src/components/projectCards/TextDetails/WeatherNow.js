@@ -11,18 +11,29 @@ const WeatherNow = () => {
       />
       <Card.ImgOverlay>
         <Card.Title>WeatherNow</Card.Title>
+        <Card.Text style={{ color: "yellow" }}>
+          [NEW 08/2020] Remade for REACT
+        </Card.Text>
         <Card.Text>
           A web application that provides the weather conditions for a
           user-chosen city.
         </Card.Text>
         <Card.Text>
+          New Tools Used: React, OpenWeather One Call API
+          <br />
           Tools Used: HTML, CSS, JavaScript, jQuery, OpenWeather API
         </Card.Text>
+        <Card.Link
+          href="https://morning-peak-95799.herokuapp.com/"
+          target="_blank"
+        >
+          Demo
+        </Card.Link>
         <Card.Link
           href="https://abautista3712.github.io/WeatherDashboard/"
           target="_blank"
         >
-          Demo
+          Archived Version
         </Card.Link>
         <Card.Link
           href="https://github.com/abautista3712/WeatherDashboard"
