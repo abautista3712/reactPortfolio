@@ -7,7 +7,6 @@ const ToyTipsThumb = () => {
       <Card.Img
         src="./assets/images/resized/toyTips3by2.PNG"
         alt="Card image with banner"
-        className="thumb_darkenImage"
       />
       <Card.ImgOverlay className="px-0 centerFlex">
         <Card className="text-center thumbBanner">
