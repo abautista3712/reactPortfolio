@@ -7,7 +7,7 @@ const NoteTaker = () => {
       <Card.Img
         src="./assets/images/resized/noteTaker3by2.PNG"
         alt="Card image"
-        className="darkenImage"
+        className="textDetails_darkenImage"
       />
       <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Note Taker</Card.Title>

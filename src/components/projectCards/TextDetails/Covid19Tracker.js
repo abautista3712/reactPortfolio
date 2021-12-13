@@ -7,12 +7,13 @@ const Covid19TrackerText = () => {
       <Card.Img
         src="./assets/images/resized/covid19Tracker3by2.PNG"
         alt="Card image"
-        className="darkenImage"
+        className="textDetails_darkenImage"
       />
       <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Covid-19 Tracker</Card.Title>
         <Card.Text>
-          Data tracker of Covid-19 global cases visualized via heatmap.
+          Data tracker of Covid-19 global cases in early 2020 visualized via
+          heatmap.
         </Card.Text>
         <Card.Text>
           Tools Used: Bulma CSS Framework, jQuery, Node.js, Express, Moment.js,

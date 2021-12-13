@@ -7,7 +7,7 @@ const BeerBookText = () => {
       <Card.Img
         src="./assets/images/resized/beerBook3by2.PNG"
         alt="Card image"
-        className="darkenImage"
+        className="textDetails_darkenImage"
       />
       <Card.ImgOverlay>
         <Card.Title>Beer Book</Card.Title>

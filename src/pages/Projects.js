@@ -14,19 +14,44 @@ import Covid19TrackerText from "../components/projectCards/TextDetails/Covid19Tr
 import Covid19TrackerThumb from "../components/projectCards/Thumbnails/Covid19Tracker";
 import BeerBookText from "../components/projectCards/TextDetails/BeerBook";
 import BeerBookThumb from "../components/projectCards/Thumbnails/BeerBook";
+import ToyTipsText from "../components/projectCards/TextDetails/ToyTips";
+import ToyTipsThumb from "../components/projectCards/Thumbnails/ToyTips";
 
 const Projects = () => {
+  const [isTTShown, setIsTTShown] = useState(false);
+  const [isC19TShown, setIsC19TShown] = useState(false);
   const [isIOOShown, setIsIOOShown] = useState(false);
   const [isDPShown, setIsDPShown] = useState(false);
   const [isWNShown, setIsWNShown] = useState(false);
   const [isNTShown, setIsNTShown] = useState(false);
   const [isEDBShown, setIsEDBShown] = useState(false);
-  const [isC19TShown, setIsC19TShown] = useState(false);
   const [isBBShown, setIsBBShown] = useState(false);
 
   return (
     <Container>
       <Row className="my-3 textSize">
+        <Col
+          className="my-3"
+          xs={12}
+          sm={12}
+          md={6}
+          lg={6}
+          onMouseEnter={() => setIsTTShown(true)}
+          onMouseLeave={() => setIsTTShown(false)}
+        >
+          {isTTShown ? <ToyTipsText /> : <ToyTipsThumb />}
+        </Col>
+        <Col
+          className="my-3"
+          xs={12}
+          sm={12}
+          md={6}
+          lg={6}
+          onMouseEnter={() => setIsC19TShown(true)}
+          onMouseLeave={() => setIsC19TShown(false)}
+        >
+          {isC19TShown ? <Covid19TrackerText /> : <Covid19TrackerThumb />}
+        </Col>
         <Col
           className="my-3"
           xs={12}
@@ -81,17 +106,6 @@ const Projects = () => {
           onMouseLeave={() => setIsEDBShown(false)}
         >
           {isEDBShown ? <EatDaBurgerText /> : <EatDaBurgerThumb />}
-        </Col>
-        <Col
-          className="my-3"
-          xs={12}
-          sm={12}
-          md={6}
-          lg={6}
-          onMouseEnter={() => setIsC19TShown(true)}
-          onMouseLeave={() => setIsC19TShown(false)}
-        >
-          {isC19TShown ? <Covid19TrackerText /> : <Covid19TrackerThumb />}
         </Col>
         {/* <Col
           className="my-3"

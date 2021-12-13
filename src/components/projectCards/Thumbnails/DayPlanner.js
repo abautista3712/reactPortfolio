@@ -7,7 +7,7 @@ const DayPlanner = () => {
       <Card.Img
         src="./assets/images/resized/dayPlanner3by2.PNG"
         alt="Card image with banner"
-        style={{ filter: "brightness(0.5)" }}
+        className="thumb_darkenImage"
       />
       <Card.ImgOverlay className="px-0 centerFlex">
         <Card className="text-center thumbBanner">

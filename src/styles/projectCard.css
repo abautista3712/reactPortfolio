@@ -1,5 +1,9 @@
 /* Projects */
-.darkenImage {
+.thumb_darkenImage {
+  filter: brightness(0.5);
+}
+
+.textDetails_darkenImage {
   filter: brightness(0.3);
 }
 

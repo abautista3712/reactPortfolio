@@ -7,7 +7,7 @@ const EatDaBurger = () => {
       <Card.Img
         src="./assets/images/resized/eatDaBurger3by2.PNG"
         alt="Card image"
-        className="darkenImage"
+        className="textDetails_darkenImage"
       />
       <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Eat-Da-Burger</Card.Title>

@@ -7,7 +7,7 @@ const WeatherNow = () => {
       <Card.Img
         src="./assets/images/resized/weatherNow3by2.jpg"
         alt="Card image"
-        className="darkenImage"
+        className="textDetails_darkenImage"
       />
       <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>WeatherNow</Card.Title>

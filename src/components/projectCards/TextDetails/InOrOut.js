@@ -7,7 +7,7 @@ const InOrOutText = () => {
       <Card.Img
         src="./assets/images/resized/inOrOut3by2.jpg"
         alt="Darkened card image with Text"
-        className="darkenImage"
+        className="textDetails_darkenImage"
       />
       <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>In or Out</Card.Title>
