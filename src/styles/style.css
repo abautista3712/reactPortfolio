@@ -1,10 +1,28 @@
 /* Multiple Pages */
 body {
-  background-color: #333a40;
+  /* background-color: #333a40; */
+  background-color: aliceblue;
 }
 
-.cardHeader {
-  background-color: #4e5861;
+.cardHeader_bgColor {
+  /* background-color: #4e5861; */
+  background-color: lavender;
+}
+
+.cardBody_bgColor {
+  background-color: aliceblue;
+}
+
+.cardText_bgColor {
+  background-color: rgb(255, 255, 255, 1);
+}
+
+.cardText_spacing {
+  margin: 10% 0;
+}
+
+.cardText_styling {
+  border-radius: 50px;
 }
 
 .navLinkSize {

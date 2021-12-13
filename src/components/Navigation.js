@@ -22,7 +22,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <Navbar expand="sm" bg="dark" variant="dark" className="my-auto py-1">
+      <Navbar expand="sm" className="my-auto py-1">
         <Navbar.Brand href="/about">
           <h3>Abelard Bautista</h3>
         </Navbar.Brand>
@@ -55,17 +55,15 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link>
             <img
-              src="./assets/images/icons/gitHubIcon.png"
+              src="./assets/images/icons/GitHub-Mark-120px-plus.PNG"
               width="35"
-              height="35"
               className="my-1 mr-2"
               alt="GitHub Icon"
               onClick={handleClickGitHub}
             />
             <img
-              src="./assets/images/icons/linkedInIcon.png"
+              src="./assets/images/icons/LI-In-Bug.PNG"
               width="45"
-              height="35"
               alt="LinkedIn Icon"
               onClick={handleClickLinkedIn}
             />

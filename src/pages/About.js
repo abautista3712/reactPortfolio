@@ -19,7 +19,7 @@ const About = () => {
           />
         </Col>
         <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-          <Card.Body>
+          <Card.Body className="cardText_bgColor cardText_spacing cardText_styling">
             <Card.Title>
               Full-Stack Software Developer in Los Angeles
             </Card.Title>
