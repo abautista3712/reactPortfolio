@@ -5,11 +5,11 @@ const EatDaBurger = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/eatDaBurger3by2.png"
+        src="./assets/images/resized/eatDaBurger3by2.PNG"
         alt="Card image"
         className="darkenImage"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Eat-Da-Burger</Card.Title>
         <Card.Text>
           A simple program designed to keep track of a list of burgers.

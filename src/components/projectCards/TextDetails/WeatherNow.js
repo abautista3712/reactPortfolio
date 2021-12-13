@@ -9,11 +9,9 @@ const WeatherNow = () => {
         alt="Card image"
         className="darkenImage"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>WeatherNow</Card.Title>
-        <Card.Text style={{ color: "yellow" }}>
-          [NEW 08/2020] Remade for REACT
-        </Card.Text>
+        <Card.Text>Remade for REACT</Card.Text>
         <Card.Text>
           A web application that provides the weather conditions for a
           user-chosen city.

@@ -12,10 +12,8 @@ const WeatherNow = () => {
       <Card.ImgOverlay className="px-0 centerFlex">
         <Card className="text-center thumbBanner">
           <Card.Text className="my-auto" style={{ backgroundColor: "black" }}>
-            <h3>WeatherNow</h3>
-            <h6 style={{ color: "yellow" }}>
-              -[NEW 08/2020] Remade for REACT-
-            </h6>
+            <h3 className="thumbBanner_fontColor">WeatherNow</h3>
+            <h6 className="thumbBanner_fontColor">-Remade for REACT-</h6>
           </Card.Text>
           <Card.Text className="my-auto">
             <Container>
@@ -27,11 +25,14 @@ const WeatherNow = () => {
                   lg={4}
                   xl={4}
                   style={{ fontSize: 13 }}
-                  className="centerFlex"
+                  className="centerFlex thumbBanner_fontColor"
                 >
                   New Tools Utilized:
                 </Col>
-                <Col style={{ fontSize: 12 }} className="centerFlex">
+                <Col
+                  style={{ fontSize: 12 }}
+                  className="centerFlex thumbBanner_fontColor"
+                >
                   React, OpenWeather One Call API
                 </Col>
               </Row>
@@ -43,11 +44,14 @@ const WeatherNow = () => {
                   lg={4}
                   xl={4}
                   style={{ fontSize: 13 }}
-                  className="centerFlex"
+                  className="centerFlex thumbBanner_fontColor"
                 >
                   Tools Utilized:
                 </Col>
-                <Col style={{ fontSize: 12 }} className="centerFlex">
+                <Col
+                  style={{ fontSize: 12 }}
+                  className="centerFlex thumbBanner_fontColor"
+                >
                   HTML, CSS, JavaScript, jQuery, OpenWeather API
                 </Col>
               </Row>

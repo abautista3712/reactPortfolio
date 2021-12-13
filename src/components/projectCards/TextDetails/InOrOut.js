@@ -9,7 +9,7 @@ const InOrOutText = () => {
         alt="Darkened card image with Text"
         className="darkenImage"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>In or Out</Card.Title>
         <Card.Text>
           An interactive web application designed to help a user decide between

@@ -10,36 +10,43 @@ const About = () => {
   return (
     <Container>
       <Row>
-        <Col xs={12} sm={12} md={6} lg={6} xl={6} className="my-4">
+        <Col
+          xs={12}
+          sm={12}
+          md={5}
+          lg={5}
+          xl={5}
+          className="my-4 cardItem_spacing"
+        >
           <Image
-            src="./assets/images/resized/profilePicSquare.png"
+            src="./assets/images/resized/profilePicSquare.PNG"
             fluid
             roundedCircle
             alt="Circle Profile Pic"
+            className="cardItem_spacing"
           />
         </Col>
-        <Col xs={12} sm={12} md={6} lg={6} xl={6}>
-          <Card.Body className="cardText_bgColor cardText_spacing cardText_styling">
+        <Col xs={12} sm={12} md={7} lg={7} xl={7}>
+          <Card.Body className="cardText_bgColor cardItem_spacing cardTextBox_styling">
             <Card.Title>
               Full-Stack Software Developer in Los Angeles
             </Card.Title>
-            <Card.Text className="textSize">
+            <Card.Text className="textSize cardTextP_spacing">
               Hello! My name is Abelard Bautista and I am an aspiring Software
               Developer. I am currently a laboratory supervisor in the field of
-              reproductive genetics but I am looking into transitioning to a
-              career more focused in tech. As a lifelong learner, I aspire to
-              continue learning about new computer languages and skills that I
-              can use to improve my life and the lives of others. At work, I
-              independently developed a productivity tool using Microsoft Excel
-              and VBA to dynamically sort and provide information based on a
-              variety of client parameters. This tool was incorporated by upper
-              management as a model for software that all employees in my
-              company use worldwide. Looking towards the future, I am excited to
-              immerse myself in tech so as to equip myself with the tools to
-              contribute to the development of more of these productivity
-              projects.
+              reproductive genetics but I am looking to transition to a career
+              more focused in tech. As a lifelong learner, I aspire to continue
+              learning about new computer languages and skills that I can use to
+              improve my life and the lives of others. At work, I independently
+              developed a productivity tool using Microsoft Excel and VBA to
+              dynamically sort and provide information based on a variety of
+              client parameters. This tool was incorporated by upper management
+              as a model for software that all employees in my company use
+              worldwide. Looking towards the future, I am excited to immerse
+              myself in tech so as to equip myself with the tools to contribute
+              to the development of more of these productivity projects.
             </Card.Text>
-            <Card.Text className="textSize">
+            <Card.Text className="textSize cardTextP_spacing">
               Outside of my interest in tech, I have hobbies in beer, music, and
               plants. For the past two years, I have reviewed over 100+
               different beers that I have tried throughout the world. I have

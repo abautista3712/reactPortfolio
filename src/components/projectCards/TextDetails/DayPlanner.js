@@ -5,11 +5,11 @@ const DayPlannerText = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/dayPlanner3by2.png"
+        src="./assets/images/resized/dayPlanner3by2.PNG"
         alt="Card image"
         className="darkenImage"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Day Planner</Card.Title>
         <Card.Text>
           An editable web application capable of recording the user's schedule

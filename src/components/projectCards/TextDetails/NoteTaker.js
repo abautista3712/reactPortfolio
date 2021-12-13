@@ -5,11 +5,11 @@ const NoteTaker = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/noteTaker3by2.png"
+        src="./assets/images/resized/noteTaker3by2.PNG"
         alt="Card image"
         className="darkenImage"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Note Taker</Card.Title>
         <Card.Text>
           A program utilizing a node.js express server for the user to read,

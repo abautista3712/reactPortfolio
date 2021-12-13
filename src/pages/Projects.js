@@ -93,7 +93,7 @@ const Projects = () => {
         >
           {isC19TShown ? <Covid19TrackerText /> : <Covid19TrackerThumb />}
         </Col>
-        <Col
+        {/* <Col
           className="my-3"
           xs={12}
           sm={12}
@@ -103,8 +103,8 @@ const Projects = () => {
           onMouseLeave={() => setIsBBShown(false)}
         >
           {isBBShown ? <BeerBookText /> : <BeerBookThumb />}
-          {/* <BeerBookText /> */}
-        </Col>
+          <BeerBookText />
+        </Col> */}
       </Row>
     </Container>
   );

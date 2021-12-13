@@ -8,6 +8,14 @@
   width: 100%;
 }
 
+.thumbBanner_fontColor {
+  color: white;
+}
+
+.textDetails_fontColor {
+  color: white;
+}
+
 .centerFlex {
   display: flex;
   align-items: center;

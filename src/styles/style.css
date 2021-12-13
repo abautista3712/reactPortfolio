@@ -17,14 +17,17 @@ body {
   background-color: rgb(255, 255, 255, 1);
 }
 
-.cardText_spacing {
+.cardItem_spacing {
   margin: 10% 0;
 }
 
-.cardText_styling {
+.cardTextBox_styling {
   border-radius: 50px;
 }
 
+.cardTextP_spacing {
+  margin: 5% 0;
+}
 .navLinkSize {
   font-size: 15px;
 }

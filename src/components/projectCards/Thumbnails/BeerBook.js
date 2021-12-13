@@ -5,7 +5,7 @@ const BeerBookThumb = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/beerBook3by2.png"
+        src="./assets/images/resized/beerBook3by2.PNG"
         alt="Card image with banner"
       />
       <Card.ImgOverlay className="px-0 centerFlex">
