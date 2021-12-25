@@ -22,17 +22,21 @@ const Navigation = () => {
 
   return (
     <div>
-      <Navbar expand="sm" className="my-auto py-1">
+      <Navbar expand="sm" className="my-auto py-1 navBackgroundColor">
         <Navbar.Brand href="/about">
-          <h3>Abelard Bautista</h3>
+          <h3 className="navNameFontColor">Abelard Bautista</h3>
         </Navbar.Brand>
-        <container className="mr-auto textSize">
-          <Navbar.Text>abelardbautista@gmail.com</Navbar.Text>
-          <Navbar.Text className="mx-2">●</Navbar.Text>
-          <Navbar.Text>(619) 549 7683</Navbar.Text>
+        <container className="mr-auto textSize navNonNameFontColor">
+          <Navbar.Text className="navNonNameFontColor">
+            abelardbautista@gmail.com
+          </Navbar.Text>
+          <Navbar.Text className="mx-2 navNonNameFontColor">●</Navbar.Text>
+          <Navbar.Text className="navNonNameFontColor">
+            (619) 549 7683
+          </Navbar.Text>
         </container>
         <Nav variant="pills" className="navLinkSize">
-          <Nav.Link href="/about" className="my-auto">
+          <Nav.Link href="/about" className="my-auto navNonNameFontColor">
             About
           </Nav.Link>
           {/* <Navbar.Collapse id="basic-navbar-nav">
@@ -47,10 +51,18 @@ const Navigation = () => {
           </NavDropdown>
           </Nav>
         </Navbar.Collapse> */}
-          <Nav.Link href="/projects" className="my-auto" onClick={pageRedirect}>
+          <Nav.Link
+            href="/projects"
+            className="my-auto navNonNameFontColor"
+            onClick={pageRedirect}
+          >
             Projects
           </Nav.Link>
-          <Nav.Link href="" className="my-auto" onClick={handleClickResume}>
+          <Nav.Link
+            href=""
+            className="my-auto navNonNameFontColor"
+            onClick={handleClickResume}
+          >
             Resume
           </Nav.Link>
           <Nav.Link>

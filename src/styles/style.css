@@ -28,6 +28,19 @@ body {
 .cardTextP_spacing {
   margin: 5% 0;
 }
+
+.navBackgroundColor {
+  background-color: rgb(120, 168, 211);
+}
+
+.navNameFontColor {
+  color: white;
+}
+
+.navNonNameFontColor {
+  color: rgb(255, 255, 255, 0.65) !important;
+}
+
 .navLinkSize {
   font-size: 15px;
 }

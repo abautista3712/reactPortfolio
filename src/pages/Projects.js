@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+
+import ToyTipsText from "../components/projectCards/TextDetails/ToyTips";
+import ToyTipsThumb from "../components/projectCards/Thumbnails/ToyTips";
+import Covid19TrackerText from "../components/projectCards/TextDetails/Covid19Tracker";
+import Covid19TrackerThumb from "../components/projectCards/Thumbnails/Covid19Tracker";
 import InOrOutText from "../components/projectCards/TextDetails/InOrOut";
 import InOrOutThumb from "../components/projectCards/Thumbnails/InOrOut";
 import DayPlannerText from "../components/projectCards/TextDetails/DayPlanner";
@@ -8,14 +13,11 @@ import WeatherNowText from "../components/projectCards/TextDetails/WeatherNow";
 import WeatherNowThumb from "../components/projectCards/Thumbnails/WeatherNow";
 import NoteTakerText from "../components/projectCards/TextDetails/NoteTaker";
 import NoteTakerThumb from "../components/projectCards/Thumbnails/NoteTaker";
-import EatDaBurgerText from "../components/projectCards/TextDetails/EatDaBurger";
-import EatDaBurgerThumb from "../components/projectCards/Thumbnails/EatDaBurger";
-import Covid19TrackerText from "../components/projectCards/TextDetails/Covid19Tracker";
-import Covid19TrackerThumb from "../components/projectCards/Thumbnails/Covid19Tracker";
-import BeerBookText from "../components/projectCards/TextDetails/BeerBook";
-import BeerBookThumb from "../components/projectCards/Thumbnails/BeerBook";
-import ToyTipsText from "../components/projectCards/TextDetails/ToyTips";
-import ToyTipsThumb from "../components/projectCards/Thumbnails/ToyTips";
+
+// import EatDaBurgerText from "../components/projectCards/TextDetails/EatDaBurger";
+// import EatDaBurgerThumb from "../components/projectCards/Thumbnails/EatDaBurger";
+// import BeerBookText from "../components/projectCards/TextDetails/BeerBook";
+// import BeerBookThumb from "../components/projectCards/Thumbnails/BeerBook";
 
 const Projects = () => {
   const [isTTShown, setIsTTShown] = useState(false);
@@ -24,8 +26,8 @@ const Projects = () => {
   const [isDPShown, setIsDPShown] = useState(false);
   const [isWNShown, setIsWNShown] = useState(false);
   const [isNTShown, setIsNTShown] = useState(false);
-  const [isEDBShown, setIsEDBShown] = useState(false);
-  const [isBBShown, setIsBBShown] = useState(false);
+  // const [isEDBShown, setIsEDBShown] = useState(false);
+  // const [isBBShown, setIsBBShown] = useState(false);
 
   return (
     <Container>
@@ -96,7 +98,8 @@ const Projects = () => {
         >
           {isNTShown ? <NoteTakerText /> : <NoteTakerThumb />}
         </Col>
-        <Col
+        {/* Eat Da Burger */}
+        {/* <Col
           className="my-3"
           xs={12}
           sm={12}
@@ -106,7 +109,8 @@ const Projects = () => {
           onMouseLeave={() => setIsEDBShown(false)}
         >
           {isEDBShown ? <EatDaBurgerText /> : <EatDaBurgerThumb />}
-        </Col>
+        </Col> */}
+        {/* BeerBook */}
         {/* <Col
           className="my-3"
           xs={12}
