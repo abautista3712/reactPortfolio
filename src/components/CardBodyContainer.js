@@ -6,7 +6,7 @@ import Projects from "../pages/Projects";
 
 const CardBodyContainer = () => {
   return (
-    <Card border="secondary" className="mx-auto cardBody_bgColor">
+    <Card border="light" className="mx-auto cardBody_bgColor">
       <Card.Header as="h6" className="py-2 cardHeader_bgColor">
         <Switch>
           <Route path="/projects">Projects</Route>

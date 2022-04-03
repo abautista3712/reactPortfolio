@@ -3,10 +3,6 @@ import React from "react";
 import { Card, Container, Row, Col, Image } from "react-bootstrap";
 
 const About = () => {
-  // const pageRedirect = () => {
-  //   return <Link to="/projects" />;
-  // };
-
   return (
     <Container>
       <Row>
@@ -57,9 +53,6 @@ const About = () => {
               beer reviews and also work on other personal projects for people
               to enjoy.
             </Card.Text>
-            {/* <Button variant="primary" onClick={}>
-              Check Out My Projects
-            </Button> */}
           </Card.Body>
         </Col>
       </Row>
