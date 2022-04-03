@@ -5,7 +5,7 @@ const ToyTipsText = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/original/toyTips.png"
+        src="./assets/images/resized/toyTips.png"
         alt="Card image"
         className="textDetails_darkenImage"
       />
