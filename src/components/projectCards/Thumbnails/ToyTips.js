@@ -5,7 +5,7 @@ const ToyTipsThumb = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/toyTips.png"
+        src="./assets/images/resized/toyTips3by2.png"
         alt="Card image with banner"
       />
       <Card.ImgOverlay className="px-0 centerFlex">
