@@ -18,11 +18,13 @@ body {
 }
 
 .cardItem_spacing {
-  margin: 10% 0;
+  margin: 5% 0;
 }
 
 .cardTextBox_styling {
   border-radius: 50px;
+  box-shadow: 2px 3px 10px lightgrey;
+  padding: 8% 7%;
 }
 
 .cardTextP_spacing {
