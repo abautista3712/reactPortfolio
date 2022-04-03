@@ -9,7 +9,7 @@ const BeerBookText = () => {
         alt="Card image"
         className="textDetails_darkenImage"
       />
-      <Card.ImgOverlay>
+      <Card.ImgOverlay className="textDetails_fontColor">
         <Card.Title>Beer Book</Card.Title>
         <Card.Text>
           App for beer drinkers of all levels to keep track of which beers one
@@ -18,13 +18,6 @@ const BeerBookText = () => {
         <Card.Text>
           Tools Used: Mongo, Mongoose ODM, Express, React, Node.js
         </Card.Text>
-        <Card.Text>
-          Use the following credentials to demo
-          <br />
-          Username: Test
-          <br />
-          Password: Test
-        </Card.Text>
         <Card.Link
           href="https://floating-tor-57469.herokuapp.com/"
           target="_blank"
@@ -32,7 +25,7 @@ const BeerBookText = () => {
           Demo
         </Card.Link>
         <Card.Link
-          href="https://github.com/sboulom/finalProject"
+          href="https://github.com/abautista3712/BeerBook_2.0"
           target="_blank"
         >
           GitHub
