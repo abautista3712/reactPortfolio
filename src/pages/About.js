@@ -19,7 +19,7 @@ const About = () => {
           className="my-4 cardItem_spacing"
         >
           <Image
-            src="./assets/images/resized/profilePicSquare.PNG"
+            src="./assets/images/resized/profilePicSquare.png"
             fluid
             roundedCircle
             alt="Circle Profile Pic"

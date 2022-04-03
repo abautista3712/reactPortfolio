@@ -5,7 +5,7 @@ const NoteTaker = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/noteTaker3by2.PNG"
+        src="./assets/images/resized/noteTaker3by2.png"
         alt="Card image with banner"
         style={{ filter: "brightness(0.8)" }}
       />

@@ -5,7 +5,7 @@ const Covid19TrackerText = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/covid19Tracker3by2.PNG"
+        src="./assets/images/resized/covid19Tracker3by2.png"
         alt="Card image"
         className="textDetails_darkenImage"
       />

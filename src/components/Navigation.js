@@ -67,14 +67,14 @@ const Navigation = () => {
           </Nav.Link>
           <Nav.Link>
             <img
-              src="./assets/images/icons/GitHub-Mark-120px-plus.PNG"
+              src="./assets/images/icons/GitHub-Mark-120px-plus.png"
               width="35"
               className="my-1 mr-2"
               alt="GitHub Icon"
               onClick={handleClickGitHub}
             />
             <img
-              src="./assets/images/icons/LI-In-Bug.PNG"
+              src="./assets/images/icons/LI-In-Bug.png"
               width="45"
               alt="LinkedIn Icon"
               onClick={handleClickLinkedIn}

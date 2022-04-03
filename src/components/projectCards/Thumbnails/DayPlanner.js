@@ -5,7 +5,7 @@ const DayPlanner = () => {
   return (
     <Card>
       <Card.Img
-        src="./assets/images/resized/dayPlanner3by2.PNG"
+        src="./assets/images/resized/dayPlanner3by2.png"
         alt="Card image with banner"
         className="thumb_darkenImage"
       />
