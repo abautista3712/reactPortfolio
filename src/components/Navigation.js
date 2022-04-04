@@ -12,7 +12,11 @@ const Navigation = () => {
   };
 
   const handleClickResume = () => {
-    window.open(`./assets/documents/resume.pdf`, `_blank`, `fullscreen=yes`);
+    window.open(
+      `./assets/documents/resume_2022.pdf`,
+      `_blank`,
+      `fullscreen=yes`
+    );
     return false;
   };
 
